@@ -15,54 +15,53 @@ def rectangle(horizontal,vertical,color):
 
 t.penup()
 t.speed('slow')
-t.bgcolor('Dodger blue')
+t.bgcolor('black')
 
 #feet
 t.goto(-100, -150)
-rectangle(50,20,'blue')
+rectangle(50,20,'white')
 t.goto(-30,-150)
-rectangle(50,20,'blue')
+rectangle(50,20,'white')
 
 #legs
 t.goto(-25, -50)
-rectangle(15,100,'grey')
+rectangle(15,100,'blue')
 t.goto(-55,-50)
-rectangle(-15,100,'grey')
+rectangle(-15,100,'blue')
 
 #body
 t.goto(-90,100)
-rectangle(100,150,'red')
+rectangle(100,150,'yellow')
 
 #arms
 t.goto(-150, 70)
-rectangle(60,15,'grey')
+rectangle(60,15,'blue')
 t.goto(-150,110)
-rectangle(15,40,'grey')
+rectangle(15,40,'blue')
 
 t.goto(10, 70)
-rectangle(60,15,'grey')
+rectangle(60,15,'blue')
 t.goto(55,110)
-rectangle(15,40,'grey')
+rectangle(15,40,'blue')
 
 #neck
 t.goto(-50,120)
-rectangle(15,20,'grey')
+rectangle(15,20,'blue')
 
 #head
 t.goto(-85,170)
-rectangle(80,50,'red')
+rectangle(80,50,'yellow')
 
 #eyes
 t.goto(-60, 160)
 rectangle(30,10,'white')
 t.goto(-55,155)
-rectangle(5,5,'black')
+rectangle(5,5,'red')
 t.goto(-40,155)
-rectangle(5,5,'black')
+rectangle(5,5,'red')
 
 #mouth
 t.goto(-65,135)
-t.right(5)
-rectangle(40,5,'black')
+rectangle(40,5,'red')
 
 t.hideturtle()
